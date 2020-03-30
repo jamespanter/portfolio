@@ -13,17 +13,26 @@ const NavBar = () => {
           <h1>JAMES PANTER</h1>
           <p>Junior developer</p>
         </div>
-        <Link to="/portfolio">Portfolio</Link>
-        <Link to="/about-me">About Me</Link>
+        <div className={styles.pages}>
+          <Link to="/portfolio" className={styles.page}>
+            <span>Portfolio</span>
+          </Link>
+          <Link to="/about-me" className={styles.page}>
+            <span>About Me</span>
+          </Link>
+        </div>
         <nav>
           <a target="_blank" href="https://linkedin.com/in/james-panter">
-            <FontAwesomeIcon icon={faLinkedinIn} />
+            <FontAwesomeIcon
+              icon={faLinkedinIn}
+              className={styles.fontAwesome}
+            />
           </a>
           <a target="_blank" href="https://github.com/jamespanter">
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} className={styles.fontAwesome} />
           </a>
           <a href="mailto: james.panter@nology.io">
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faEnvelope} className={styles.fontAwesome} />
           </a>
         </nav>
       </div>
