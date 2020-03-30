@@ -8,11 +8,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  border-right: solid 2px $secondary-color;
   div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-column-center;
+
+    h1 {
+      color: $secondary-color;
+    }
   }
 }

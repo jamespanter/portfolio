@@ -6,9 +6,7 @@ import DashBoard from "./containers/DashBoard";
 const App = () => {
   return (
     <>
-      <div className={styles.dashBoard}>
-        <DashBoard />
-      </div>
+      <DashBoard />
     </>
   );
 };

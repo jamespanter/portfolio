@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./NavBar.module.scss";
 import { Link } from "@reach/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
   return (
@@ -12,13 +14,13 @@ const NavBar = () => {
         <Link to="/about-me">About Me</Link>
         <nav>
           <a target="_blank" href="https://linkedin.com/in/james-panter">
-            <span class="fab fa-linkedin">LinkedIn</span>
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
           <a target="_blank" href="https://github.com/jamespanter">
-            <span class="fab fa-github-square">GitHub</span>
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
           <a href="mailto: james.panter@nology.io">
-            <span class="fas fa-envelope">Email</span>
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </nav>
       </div>
