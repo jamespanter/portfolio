@@ -1,13 +1,15 @@
 import React from "react";
 import styles from "./Portfolio.module.scss";
-import CardList from "../../components/CardList";
+import Card from "../../components/Card";
 
 const Portfolio = () => {
   return (
     <>
-      <div className={styles.portfolio}>
-        <h2>ABOUT ME</h2>
-        <CardList />
+      <div className={styles.portfolioContainer}>
+        <div className={styles.portfolio}>
+          <h2>PORTFOLIO</h2>
+          <Card />
+        </div>
       </div>
     </>
   );
