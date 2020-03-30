@@ -4,6 +4,7 @@
   border-radius: 5px;
   color: black;
   padding: $base-spacing * 2 $base-spacing * 4;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
     background-color: $secondary-color;

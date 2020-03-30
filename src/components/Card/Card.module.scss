@@ -31,7 +31,10 @@
     &:hover .portfolioCardText {
       display: flex;
       flex-direction: column;
-      cursor: pointer;
+
+      button {
+        cursor: pointer;
+      }
     }
   }
 }

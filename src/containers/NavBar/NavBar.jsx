@@ -10,7 +10,9 @@ const NavBar = () => {
     <div className={styles.navContainer}>
       <div className={styles.leftPanel}>
         <div>
-          <h1>JAMES PANTER</h1>
+          <h1>
+            JAMES <br></br> PANTER
+          </h1>
           <p>Junior developer</p>
         </div>
         <div className={styles.pages}>
