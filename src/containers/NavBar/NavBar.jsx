@@ -3,6 +3,7 @@ import styles from "./NavBar.module.scss";
 import { Link } from "@reach/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const NavBar = () => {
   return (
@@ -14,10 +15,10 @@ const NavBar = () => {
         <Link to="/about-me">About Me</Link>
         <nav>
           <a target="_blank" href="https://linkedin.com/in/james-panter">
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
           <a target="_blank" href="https://github.com/jamespanter">
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
           <a href="mailto: james.panter@nology.io">
             <FontAwesomeIcon icon={faEnvelope} />
