@@ -1,0 +1,11 @@
+@import "../../variables.scss";
+
+.button {
+  border-radius: 5px;
+  color: black;
+  padding: $base-spacing * 2 $base-spacing * 4;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}

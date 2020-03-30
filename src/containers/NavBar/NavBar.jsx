@@ -7,10 +7,12 @@ import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const NavBar = () => {
   return (
-    <div className={styles.nav}>
-      <div>
-        <h1>James Panter</h1>
-        <p>Junior developer</p>
+    <div className={styles.navContainer}>
+      <div className={styles.leftPanel}>
+        <div>
+          <h1>JAMES PANTER</h1>
+          <p>Junior developer</p>
+        </div>
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/about-me">About Me</Link>
         <nav>
