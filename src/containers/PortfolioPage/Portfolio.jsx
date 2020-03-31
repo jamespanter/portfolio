@@ -9,7 +9,7 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className={styles.portfolioContainer}>
+      <div className={`${styles.portfolioContainer} ${styles.slideInLeft}`}>
         <h2>Portfolio</h2>
         <div className={styles.portfolio}>
           <Card
