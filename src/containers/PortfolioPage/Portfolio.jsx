@@ -13,8 +13,15 @@ const Portfolio = () => {
         <h2>Portfolio</h2>
         <div className={styles.portfolio}>
           <Card
+            title="Vojo"
+            description="Group based Client project built in react"
+            url="https://vojo-bbe4f.web.app/"
+            imageURL="../../assets/vojo.PNG"
+            resources="React, Firebase, Authentication"
+          />
+          <Card
             title="To-Do List"
-            description="CRUD operations using firebase authentication to fetch, add and remove data"
+            description="Challenge using CRUD integration and authentication with firebase"
             url="https://to-do-list.jamespanter.co.uk/"
             imageURL="../../assets/to-do-list.PNG"
             resources="React, Firebase, Authentication"

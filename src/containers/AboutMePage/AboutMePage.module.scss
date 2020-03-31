@@ -10,13 +10,17 @@
     width: 90%;
     margin-bottom: 5vh;
 
-    .fontAwesome {
-      font-size: 64px;
-      margin: 10px;
+    div {
+      margin-bottom: $base-spacing * 3 0;
 
-      &:hover path {
-        color: $secondary-color;
-        transition: all 0.3s ease-in-out;
+      .fontAwesome {
+        font-size: 64px;
+        margin: 10px;
+
+        &:hover path {
+          color: $secondary-color;
+          transition: all 0.3s ease-in-out;
+        }
       }
     }
 
@@ -27,6 +31,22 @@
 
     p {
       font-size: 1.5em;
+
+      ul {
+        margin-top: $base-spacing * 2;
+        li {
+          font-size: 1.5em;
+        }
+      }
+
+      a {
+        font-size: 1em;
+        font-weight: 900;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
     }
   }
 }
@@ -37,14 +57,16 @@
 
     .aboutMe {
       width: 70%;
+      div {
+        margin-bottom: $base-spacing * 5 0;
+        h2 {
+          font-size: 2.5em;
+          margin: $base-spacing * 5 0;
+        }
 
-      h2 {
-        font-size: 2.5em;
-        margin: $base-spacing * 5 0;
-      }
-
-      p {
-        font-size: 2em;
+        p {
+          font-size: 2em;
+        }
       }
     }
   }

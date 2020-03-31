@@ -11,8 +11,12 @@
   text-align: center;
 
   .burgerMenuIcon {
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 32px;
+
+    path {
+      color: $secondary-color;
+    }
   }
 
   .burgerMenuDropDown {
@@ -66,6 +70,7 @@
     }
 
     .leftPanel {
+      padding: 60% 0;
       @include flex-column-center;
       visibility: visible;
       justify-content: space-around;
@@ -74,11 +79,6 @@
 
       p {
         padding: 0 10%;
-      }
-
-      hr {
-        width: 60%;
-        border: solid 0.3px $secondary-color-80;
       }
 
       .pages {
@@ -108,7 +108,7 @@
       nav {
         display: flex;
         justify-content: space-around;
-        width: 100%;
+        width: 70%;
 
         .fontAwesome {
           font-size: 18px;

@@ -47,10 +47,7 @@ const NavBar = () => {
           <h1>
             James <br></br> Panter
           </h1>
-          <p>Software developer</p>
         </div>
-
-        <hr></hr>
 
         <div className={styles.pages}>
           <Link to="/home" className={styles.page}>
@@ -65,8 +62,6 @@ const NavBar = () => {
             <span>About Me</span>
           </Link>
         </div>
-
-        <hr></hr>
 
         <nav>
           <a target="_blank" href="https://linkedin.com/in/james-panter">
