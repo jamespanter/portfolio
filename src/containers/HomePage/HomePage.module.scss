@@ -6,6 +6,24 @@
   min-height: 100vh;
 
   h2 {
-    font-size: 4em;
+    font-size: 3.5em;
+    margin: 10%;
+
+    span {
+      font-size: 1em;
+      color: white;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .homeContainer {
+    h2 {
+      font-size: 4em;
+
+      span {
+        font-size: 1em;
+      }
+    }
   }
 }

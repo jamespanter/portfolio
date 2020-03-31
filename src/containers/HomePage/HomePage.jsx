@@ -5,8 +5,9 @@ const HomePage = () => {
   return (
     <>
       <div className={styles.homeContainer}>
-        <h2>Hello, I'm James Panter</h2>
-        <p>Junior Developer</p>
+        <h2>
+          <span>Hello, I'm</span> James Panter.
+        </h2>
       </div>
     </>
   );
