@@ -14,21 +14,21 @@ const Portfolio = () => {
         <div className={styles.portfolio}>
           <Card
             title="To-Do List"
-            description="Using firebase to fetch, add and remove data"
+            description="CRUD operations using firebase authentication to fetch, add and remove data"
             url="https://to-do-list.jamespanter.co.uk/"
             imageURL="../../assets/to-do-list.PNG"
-            resources="React, CSS, JavaScript"
+            resources="React, Firebase, Authentication"
           />
           <Card
             title="Follow The Bird"
-            description="Working with audio and event listeners"
+            description="Working with HTML audio and event listeners"
             url="public\assets\follow-the-sound.PNG"
             imageURL="../../assets/follow-the-sound.PNG"
-            languages="HTML, CSS, JavaScript"
+            languages="HTML, JavaScript"
           />
           <Card
             title="Space Invaders"
-            description="Code challenge focused on dynamically creating content in html"
+            description="Code challenge focused on OOP using JavaScript to dynamically creating content in html"
             url="https://space-invaders.jamespanter.co.uk/"
             imageURL="../../assets/space-invaders.PNG"
             resources="HTML, CSS, JavaScript"

@@ -19,6 +19,13 @@ const NavBar = () => {
       {navShown ? (
         <div className={`${styles.burgerMenuDropDown} ${styles.slideInTopTwo}`}>
           <Link
+            to="/home"
+            className={styles.page}
+            onClick={() => toggleNav(!navShown)}
+          >
+            <span>Welcome</span>
+          </Link>
+          <Link
             to="/portfolio"
             className={styles.page}
             onClick={() => toggleNav(!navShown)}
@@ -46,6 +53,10 @@ const NavBar = () => {
         <hr></hr>
 
         <div className={styles.pages}>
+          <Link to="/home" className={styles.page}>
+            <span>Welcome</span>
+          </Link>
+
           <Link to="/portfolio" className={styles.page}>
             <span>Portfolio</span>
           </Link>
