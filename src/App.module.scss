@@ -9,10 +9,18 @@
   text-decoration: none;
   color: white;
   font-size: 16px;
+
+  &::selection {
+    color: $secondary-color;
+  }
 }
 
 h1,
 h2,
 h3 {
   color: $secondary-color;
+
+  &::selection {
+    color: white;
+  }
 }
