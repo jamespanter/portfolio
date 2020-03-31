@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <>
       <div className={styles.portfolioContainer}>
-        <h2>PORTFOLIO</h2>
+        <h2>Portfolio</h2>
         <div className={styles.portfolio}>
           <Card
             title="To-Do List"

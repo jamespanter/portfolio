@@ -1,19 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./NavBar.module.scss";
 import { Link } from "@reach/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const NavBar = () => {
+  const [navShown, toggleNav] = useState(false);
+
   return (
     <div className={styles.navContainer}>
+      <FontAwesomeIcon
+        icon={faBars}
+        className={styles.burgerMenuIcon}
+        onClick={() => toggleNav(!navShown)}
+      />
+
+      {navShown ? (
+        <div className={`${styles.burgerMenuDropDown} ${styles.slideInTopTwo}`}>
+          <Link
+            to="/portfolio"
+            className={styles.page}
+            onClick={() => toggleNav(!navShown)}
+          >
+            <span>Portfolio</span>
+          </Link>
+          <Link
+            to="/about-me"
+            className={styles.page}
+            onClick={() => toggleNav(!navShown)}
+          >
+            <span>About Me</span>
+          </Link>
+        </div>
+      ) : null}
+
       <div className={styles.leftPanel}>
         <div>
           <h1>
-            JAMES <br></br> PANTER
+            James <br></br> Panter
           </h1>
-          <p>Junior developer</p>
+          <p>Software developer</p>
         </div>
         <div className={styles.pages}>
           <Link to="/portfolio" className={styles.page}>
