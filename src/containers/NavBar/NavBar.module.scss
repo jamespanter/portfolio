@@ -28,7 +28,7 @@
     background-color: $primary-color;
 
     a {
-      border-bottom: solid 1px yellow;
+      border-bottom: solid 1px $secondary-color;
       height: 50%;
       display: flex;
       justify-content: center;
@@ -40,72 +40,87 @@
     }
   }
 
-  div {
-    h1 {
-      font-size: 4em;
-    }
-
-    p {
-      margin-top: $base-spacing * 3;
-      font-size: 2em;
-    }
-  }
-
   .leftPanel {
     visibility: hidden;
-    @include flex-column-center;
-    justify-content: space-around;
-    height: 100%;
-    width: 100%;
-
-    .pages {
-      height: 30%;
-      width: 100%;
-
-      .page {
-        @include flex-column-center;
-        width: 100%;
-        height: 50%;
-
-        span {
-          font-size: 1.5em;
-        }
-
-        &:hover {
-          background-color: $primary-color;
-          transition: all 0.3s ease-in-out;
-        }
-      }
-    }
-    nav {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-
-      a:hover path {
-        color: $secondary-color;
-        transition: all 0.3s ease-in-out;
-      }
-    }
   }
 }
 
 @media only screen and (min-width: 768px) {
   .navContainer {
-    width: 100%;
-    height: 100%;
-    background-color: $primary-color;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-bottom: none;
     border-right: solid 2px $secondary-color;
-    text-align: center;
 
     .burgerMenuIcon {
       display: none;
     }
 
+    div {
+      h1 {
+        font-size: 2.5em;
+      }
+
+      p {
+        margin-top: $base-spacing * 3;
+        font-size: 1.5em;
+      }
+    }
+
+    .leftPanel {
+      @include flex-column-center;
+      visibility: visible;
+      justify-content: space-around;
+      height: 100%;
+      width: 100%;
+
+      hr {
+        width: 70%;
+        border: solid 0.5px $secondary-color;
+      }
+
+      .pages {
+        height: 30%;
+        width: 100%;
+
+        .page {
+          @include flex-column-center;
+          width: 100%;
+          height: 50%;
+
+          &:hover {
+            background-color: $primary-color-80;
+            transition: all 0.3s ease-in-out;
+
+            span {
+              color: $secondary-color;
+              transition: all 0.3s ease-in-out;
+            }
+          }
+
+          span {
+            font-size: 1.2em;
+          }
+        }
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        .fontAwesome {
+          font-size: 18px;
+        }
+
+        a:hover path {
+          color: $secondary-color;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1044px) {
+  .navContainer {
     div {
       h1 {
         font-size: 4em;
@@ -118,43 +133,16 @@
     }
 
     .leftPanel {
-      visibility: visible;
-      @include flex-column-center;
-      justify-content: space-around;
-      height: 100%;
-      width: 100%;
-
       .pages {
-        height: 30%;
-        width: 100%;
-
         .page {
-          @include flex-column-center;
-          width: 100%;
-          height: 50%;
-
           span {
             font-size: 1.5em;
-          }
-
-          &:hover {
-            background-color: $primary-color;
-            transition: all 0.3s ease-in-out;
           }
         }
       }
       nav {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-
         .fontAwesome {
           font-size: 32px;
-        }
-
-        a:hover path {
-          color: $secondary-color;
-          transition: all 0.3s ease-in-out;
         }
       }
     }

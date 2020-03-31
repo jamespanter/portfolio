@@ -3,8 +3,8 @@
 .cardContainer {
   .portfolioCard {
     position: relative;
-    width: 350px;
-    height: 280px;
+    width: 320px;
+    height: 240px;
     text-align: center;
 
     img {
@@ -34,6 +34,23 @@
 
       button {
         cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cardContainer {
+    .portfolioCard {
+      position: relative;
+      width: 320px;
+      height: 240px;
+      text-align: center;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
       }
     }
   }

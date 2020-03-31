@@ -42,6 +42,9 @@ const NavBar = () => {
           </h1>
           <p>Software developer</p>
         </div>
+
+        <hr></hr>
+
         <div className={styles.pages}>
           <Link to="/portfolio" className={styles.page}>
             <span>Portfolio</span>
@@ -50,6 +53,9 @@ const NavBar = () => {
             <span>About Me</span>
           </Link>
         </div>
+
+        <hr></hr>
+
         <nav>
           <a target="_blank" href="https://linkedin.com/in/james-panter">
             <FontAwesomeIcon
