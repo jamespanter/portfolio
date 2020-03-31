@@ -8,7 +8,7 @@ const Card = props => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.portfolioCard}>
-        <img src={imageURL} alt="Follow the sound" />
+        <img src={imageURL} alt={title} />
         <div className={styles.portfolioCardText}>
           <h3>{title}</h3>
           <p>{description}</p>
