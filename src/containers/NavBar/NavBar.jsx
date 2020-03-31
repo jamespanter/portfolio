@@ -49,6 +49,7 @@ const NavBar = () => {
           <Link to="/portfolio" className={styles.page}>
             <span>Portfolio</span>
           </Link>
+
           <Link to="/about-me" className={styles.page}>
             <span>About Me</span>
           </Link>
