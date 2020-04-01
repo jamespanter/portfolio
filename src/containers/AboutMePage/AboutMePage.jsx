@@ -19,7 +19,7 @@ const AboutMePage = () => {
 
   return (
     <>
-      <div className={`${styles.aboutMeContainer} ${styles.slideInLeft}`}>
+      <div className={`${styles.aboutMeContainer} ${styles.fadeInBck}`}>
         <div className={styles.aboutMe}>
           <h2>About Me</h2>
           <p>
