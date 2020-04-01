@@ -14,7 +14,7 @@ const Portfolio = () => {
         <div className={styles.portfolio}>
           <Card
             title="Vojo"
-            description="Group based Client project built in react"
+            description="Group based client project built in react"
             subDomainUrl="https://vojo-bbe4f.web.app/"
             gitHubUrl="https://github.com/nology-tech/vojo"
             imageURL="../../assets/vojo.PNG"

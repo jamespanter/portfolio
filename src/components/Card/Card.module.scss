@@ -36,18 +36,32 @@
       font-size: 24px;
       flex-direction: column;
 
-      h3 {
-        font-size: 1em;
+      .text {
+        position: absolute;
+        top: 0;
+
+        h3 {
+          font-size: 1.5em;
+          margin-bottom: 5%;
+        }
+
+        p {
+          font-size: 1.2em;
+          padding: 0 10%;
+        }
       }
 
-      p {
-        font-size: 1em;
-        padding: 0 10%;
-      }
+      .links {
+        position: absolute;
+        bottom: 0;
 
-      .fontAwesome {
-        font-size: 38px;
-        margin: $base-spacing * 2;
+        .fontAwesome {
+          font-size: 38px;
+          margin: $base-spacing * 2;
+          &:hover path {
+            color: $secondary-color;
+          }
+        }
       }
     }
 
@@ -59,8 +73,15 @@
         cursor: pointer;
       }
     }
-    .fontAwesome:hover path {
-      color: $secondary-color;
+
+    &:hover .text {
+      top: 10%;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:hover .links {
+      bottom: 10%;
+      transition: all 0.3s ease-in-out;
     }
   }
 }
@@ -87,28 +108,3 @@
   -webkit-animation: slideInLeft 0.75s ease-in both;
   animation: slideInLeft 0.75s ease-in both;
 }
-
-// @-webkit-keyframes slideInLeft {
-//   0% {
-//     -webkit-transform: translateX(-300px);
-//     transform: translateX(-300px);
-//     opacity: 0;
-//   }
-//   100% {
-//     -webkit-transform: translateX(0);
-//     transform: translateX(0);
-//     opacity: 1;
-//   }
-// }
-// @keyframes slideInLeft {
-//   0% {
-//     -webkit-transform: translateX(-300px);
-//     transform: translateX(-300px);
-//     opacity: 0;
-//   }
-//   100% {
-//     -webkit-transform: translateX(0);
-//     transform: translateX(0);
-//     opacity: 1;
-//   }
-// }

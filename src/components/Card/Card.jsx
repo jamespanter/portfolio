@@ -20,9 +20,11 @@ const Card = props => {
       <div className={styles.portfolioCard}>
         <div className={`${styles.portfolioCardText} ${styles.slideInLeft}`}>
           <img src={imageURL} alt={title} />
-          <h3>{title}</h3>
-          <p>{description}</p>
-          <div>
+          <div className={styles.text}>
+            <h3>{title}</h3>
+            <p>{description}</p>
+          </div>
+          <div className={styles.links}>
             <a href={subDomainUrl} target="_blank">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
