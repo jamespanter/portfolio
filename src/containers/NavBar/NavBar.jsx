@@ -34,7 +34,7 @@ const NavBar = () => {
             <span>Portfolio</span>
           </Link>
           <Link
-            to="/about-me"
+            to="/about"
             className={styles.page}
             onClick={() => toggleNav(!navShown)}
           >
