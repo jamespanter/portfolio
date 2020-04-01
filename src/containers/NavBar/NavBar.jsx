@@ -7,6 +7,7 @@ import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const NavBar = () => {
   const [navShown, toggleNav] = useState(false);
+  const [currentPage, changeCurrentPage] = useState("Home");
 
   return (
     <div className={styles.navContainer}>
@@ -23,7 +24,7 @@ const NavBar = () => {
             className={styles.page}
             onClick={() => toggleNav(!navShown)}
           >
-            <span>Welcome</span>
+            <span>Home</span>
           </Link>
           <Link
             to="/portfolio"
@@ -50,16 +51,48 @@ const NavBar = () => {
         </div>
 
         <div className={styles.pages}>
-          <Link to="/home" className={styles.page}>
-            <span>Welcome</span>
+          <Link
+            to="/home"
+            className={styles.page}
+            onClick={() => changeCurrentPage("Home")}
+          >
+            <span
+              style={
+                currentPage === "Home" ? { color: "rgb(223, 223, 95)" } : null
+              }
+            >
+              Home
+            </span>
           </Link>
 
-          <Link to="/portfolio" className={styles.page}>
-            <span>Portfolio</span>
+          <Link
+            to="/portfolio"
+            className={styles.page}
+            onClick={() => changeCurrentPage("Portfolio")}
+          >
+            <span
+              style={
+                currentPage === "Portfolio"
+                  ? { color: "rgb(223, 223, 95)" }
+                  : null
+              }
+            >
+              Portfolio
+            </span>
           </Link>
 
-          <Link to="/about-me" className={styles.page}>
-            <span>About Me</span>
+          <Link
+            to="/about"
+            className={styles.page}
+            onClick={() => changeCurrentPage("About")}
+          >
+            <span
+              style={
+                currentPage === "About" ? { color: "rgb(223, 223, 95)" } : null
+              }
+            >
+              About
+            </span>
           </Link>
         </div>
 

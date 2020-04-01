@@ -17,7 +17,7 @@ const DashBoard = () => {
           <Redirect noThrow from="/" to="home" />
           <Home path="/home" />
           <Portfolio path="/portfolio" />
-          <AboutMe path="/about-me" />
+          <AboutMe path="/about" />
         </Router>
       </div>
     </>
