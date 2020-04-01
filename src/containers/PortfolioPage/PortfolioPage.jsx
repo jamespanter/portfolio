@@ -37,6 +37,30 @@ const PortfolioPage = () => {
             languages="HTML, JavaScript"
           />
           <Card
+            title="Snake"
+            description="Using html canvas with javascript"
+            subDomainUrl="https://snake.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/snake"
+            imageURL="../../assets/snake.PNG"
+            languages="HTML, JavaScript"
+          />
+          <Card
+            title="Noughts & Crosses"
+            description="Using if statements"
+            subDomainUrl="https://noughts-and-crosses.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/noughts-and-crosses"
+            imageURL="../../assets/noughts-and-crosses.PNG"
+            languages="HTML, CSS, JavaScript"
+          />
+          <Card
+            title="Hall Of Mirrors"
+            description="Using react to pass props into components"
+            subDomainUrl="https://hall-of-mirrors.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/hall-of-mirrors"
+            imageURL="../../assets/hall-of-mirrors.PNG"
+            languages="React JS"
+          />
+          <Card
             title="Space Invaders"
             description="Code challenge focused on OOP using JavaScript to dynamically creating content in html"
             subDomainUrl="https://space-invaders.jamespanter.co.uk/"
@@ -50,30 +74,6 @@ const PortfolioPage = () => {
             subDomainUrl="https://morse-code-translator.jamespanter.co.uk/"
             gitHubUrl="https://github.com/jamespanter/morse-code-translator"
             imageURL="../../assets/morse-code-translator.PNG"
-            languages="HTML, CSS, JavaScript"
-          />
-          <Card
-            title="Snake"
-            description="Using html canvas with javascript"
-            subDomainUrl="https://snake.jamespanter.co.uk/"
-            gitHubUrl="https://github.com/jamespanter/snake"
-            imageURL="../../assets/snake.PNG"
-            languages="HTML, JavaScript"
-          />
-          <Card
-            title="Hall Of Mirrors"
-            description="Using react to pass props into components"
-            subDomainUrl="https://hall-of-mirrors.jamespanter.co.uk/"
-            gitHubUrl="https://github.com/jamespanter/hall-of-mirrors"
-            imageURL="../../assets/hall-of-mirrors.PNG"
-            languages="React JS"
-          />
-          <Card
-            title="Noughts & Crosses"
-            description="Using if statements"
-            subDomainUrl="https://noughts-and-crosses.jamespanter.co.uk/"
-            gitHubUrl="https://github.com/jamespanter/noughts-and-crosses"
-            imageURL="../../assets/noughts-and-crosses.PNG"
             languages="HTML, CSS, JavaScript"
           />
         </div>
