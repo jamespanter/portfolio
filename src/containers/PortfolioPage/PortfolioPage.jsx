@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import styles from "./Portfolio.module.scss";
+import styles from "./PortfolioPage.module.scss";
 import Card from "../../components/Card";
 
-const Portfolio = () => {
+const PortfolioPage = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -82,4 +82,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortfolioPage;

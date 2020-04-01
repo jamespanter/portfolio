@@ -25,13 +25,13 @@ const Card = props => {
             <p>{description}</p>
           </div>
           <div className={styles.links}>
-            <a href={subDomainUrl} target="_blank">
+            <a href={subDomainUrl} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
                 className={styles.fontAwesome}
               />
             </a>
-            <a href={gitHubUrl} target="_blank">
+            <a href={gitHubUrl} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} className={styles.fontAwesome} />
             </a>
           </div>

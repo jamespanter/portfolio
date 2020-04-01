@@ -14,7 +14,7 @@ import {
 
 const AboutMePage = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -26,7 +26,11 @@ const AboutMePage = () => {
             Bristol based junior developer passionate about writing clean and
             functional code. I have recently taken a 12 week intensive front-end
             software development course with{" "}
-            <a href="https://www.nology.io/" target="_blank">
+            <a
+              href="https://www.nology.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               _nology
             </a>{" "}
             from January to April 2020.
@@ -50,14 +54,13 @@ const AboutMePage = () => {
             />
             <FontAwesomeIcon icon={faYarn} className={styles.fontAwesome} />
           </div>
-          <p>
-            Alongside exposure to:
-            <ul>
-              <li>Firebase (Auth, Hosting and Database)</li>
-              <li>Jest / Enzyme</li>
-              <li>Agile practices</li>
-            </ul>
-          </p>
+          <p>Alongside exposure to:</p>
+
+          <ul>
+            <li>Firebase (Auth, Hosting and Database)</li>
+            <li>Jest / Enzyme</li>
+            <li>Agile practices</li>
+          </ul>
         </div>
       </div>
     </>

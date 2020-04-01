@@ -45,7 +45,7 @@ const NavBar = () => {
 
       <div className={styles.leftPanel}>
         <div>
-          <h1>
+          <h1 className={styles.fadeInBck}>
             James <br></br> Panter
           </h1>
         </div>
@@ -60,6 +60,7 @@ const NavBar = () => {
               style={
                 currentPage === "Home" ? { color: "rgb(223, 223, 95)" } : null
               }
+              className={styles.fadeInBck}
             >
               Home
             </span>
@@ -76,6 +77,7 @@ const NavBar = () => {
                   ? { color: "rgb(223, 223, 95)" }
                   : null
               }
+              className={styles.fadeInBck}
             >
               Portfolio
             </span>
@@ -90,20 +92,29 @@ const NavBar = () => {
               style={
                 currentPage === "About" ? { color: "rgb(223, 223, 95)" } : null
               }
+              className={styles.fadeInBck}
             >
               About
             </span>
           </Link>
         </div>
 
-        <nav>
-          <a target="_blank" href="https://linkedin.com/in/james-panter">
+        <nav className={styles.fadeInBck}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://linkedin.com/in/james-panter"
+          >
             <FontAwesomeIcon
               icon={faLinkedinIn}
               className={styles.fontAwesome}
             />
           </a>
-          <a target="_blank" href="https://github.com/jamespanter">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/jamespanter"
+          >
             <FontAwesomeIcon icon={faGithub} className={styles.fontAwesome} />
           </a>
           <a href="mailto: james.panter@nology.io">

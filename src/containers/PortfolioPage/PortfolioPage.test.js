@@ -1,10 +1,6 @@
 import React from "react";
-import Portfolio from "./Portfolio";
+import Portfolio from "./PortfolioPage";
 
 describe("Portfolio tests", () => {
   let component;
-
-  beforeEach(() => {
-    component =
-  })
 });
