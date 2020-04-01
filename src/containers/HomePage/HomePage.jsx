@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./HomePage.module.scss";
 
 const HomePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className={`${styles.homeContainer} ${styles.fadeInBck}`}>

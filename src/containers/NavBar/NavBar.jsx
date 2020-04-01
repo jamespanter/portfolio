@@ -22,23 +22,52 @@ const NavBar = () => {
           <Link
             to="/home"
             className={styles.page}
-            onClick={() => toggleNav(!navShown)}
+            onClick={() => {
+              changeCurrentPage("Home");
+              toggleNav(!navShown);
+            }}
           >
-            <span>Home</span>
+            <span
+              style={
+                currentPage === "Home" ? { color: "rgb(223, 223, 95)" } : null
+              }
+            >
+              Home
+            </span>
           </Link>
           <Link
             to="/portfolio"
             className={styles.page}
-            onClick={() => toggleNav(!navShown)}
+            onClick={() => {
+              changeCurrentPage("Portfolio");
+              toggleNav(!navShown);
+            }}
           >
-            <span>Portfolio</span>
+            <span
+              style={
+                currentPage === "Portfolio"
+                  ? { color: "rgb(223, 223, 95)" }
+                  : null
+              }
+            >
+              Portfolio
+            </span>
           </Link>
           <Link
             to="/about"
             className={styles.page}
-            onClick={() => toggleNav(!navShown)}
+            onClick={() => {
+              changeCurrentPage("About");
+              toggleNav(!navShown);
+            }}
           >
-            <span>About</span>
+            <span
+              style={
+                currentPage === "About" ? { color: "rgb(223, 223, 95)" } : null
+              }
+            >
+              About
+            </span>
           </Link>
         </div>
       ) : null}
