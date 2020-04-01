@@ -58,10 +58,11 @@ const NavBar = () => {
           >
             <span
               style={
-                currentPage === "Home" ? { color: "rgb(223, 223, 95)" } : null
+                currentPage === "Home"
+                  ? { color: "rgb(223, 223, 95)", animationDelay: "0.2s" }
+                  : { animationDelay: "0.2s" }
               }
               className={styles.fadeInBck}
-              style={{ animationDelay: "0.2s" }}
             >
               Home
             </span>
@@ -75,11 +76,10 @@ const NavBar = () => {
             <span
               style={
                 currentPage === "Portfolio"
-                  ? { color: "rgb(223, 223, 95)" }
-                  : null
+                  ? { color: "rgb(223, 223, 95)", animationDelay: "0.4s" }
+                  : { animationDelay: "0.4s" }
               }
               className={styles.fadeInBck}
-              style={{ animationDelay: ".4s" }}
             >
               Portfolio
             </span>
@@ -92,10 +92,11 @@ const NavBar = () => {
           >
             <span
               style={
-                currentPage === "About" ? { color: "rgb(223, 223, 95)" } : null
+                currentPage === "About"
+                  ? { color: "rgb(223, 223, 95)", animationDelay: "0.6s" }
+                  : { animationDelay: "0.6s" }
               }
               className={styles.fadeInBck}
-              style={{ animationDelay: ".6s" }}
             >
               About
             </span>

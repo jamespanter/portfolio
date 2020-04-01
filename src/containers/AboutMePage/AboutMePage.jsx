@@ -23,23 +23,23 @@ const AboutMePage = () => {
         <div className={styles.aboutMe}>
           <h2>About Me</h2>
           <p>
-            Bristol based junior developer passionate about writing clean and
-            functional code. I have recently taken a 12 week intensive front-end
-            software development course with{" "}
+            I am a Bristol based junior developer passionate about writing clean
+            and functional code. I have recently trained on an intensive 12 week
+            front-end software development course with{" "}
             <a
               href="https://www.nology.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
               _nology
-            </a>{" "}
-            from January to April 2020.
+            </a>
+            .
           </p>
           <h2>Experience</h2>
-
           <p>
             During this course, I worked alongside other developers on project
-            based work, developing the following skills:
+            based work, gaining experience with the following languages and
+            tools:
           </p>
           <div>
             <FontAwesomeIcon icon={faHtml5} className={styles.fontAwesome} />
@@ -54,11 +54,11 @@ const AboutMePage = () => {
             />
             <FontAwesomeIcon icon={faYarn} className={styles.fontAwesome} />
           </div>
-          <p>Alongside exposure to:</p>
-
+          <p>I also gained exposure to:</p>
           <ul>
             <li>Firebase (Auth, Hosting and Database)</li>
-            <li>Jest / Enzyme</li>
+            <li>Requirements gathering</li>
+            <li>Jest / Enzyme / TDD</li>
             <li>Agile practices</li>
           </ul>
         </div>
