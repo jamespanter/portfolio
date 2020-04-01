@@ -17,7 +17,7 @@ const NavBar = () => {
       />
 
       {navShown ? (
-        <div className={`${styles.burgerMenuDropDown} ${styles.slideInTopTwo}`}>
+        <div className={`${styles.burgerMenuDropDown} ${styles.slideInTopNav}`}>
           <Link
             to="/home"
             className={styles.page}
