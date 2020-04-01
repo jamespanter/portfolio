@@ -1,7 +1,8 @@
 @import "../../variables.scss";
 
 .cardContainer {
-  margin: 5px;
+  margin: $base-spacing;
+
   .portfolioCard {
     position: relative;
     width: 320px;
@@ -10,23 +11,28 @@
     max-width: 100%;
 
     img {
+      position: absolute;
+      top: 0;
+      left: 0;
       height: 100%;
       width: 100%;
       object-fit: cover;
+      z-index: 3;
+      pointer-events: none;
     }
 
     .portfolioCardText {
-      position: absolute;
+      display: flex;
+      position: static;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      display: none;
       justify-content: space-around;
       align-items: center;
-      background-color: $primary-color;
+      // background-color: $primary-color;
       color: $secondary-color;
-      padding: 5px 10px;
+      padding: $base-spacing;
       font-size: 24px;
       flex-direction: column;
 
@@ -35,20 +41,26 @@
       }
 
       p {
-        font-size: 0.7em;
+        font-size: 1em;
         padding: 0 10%;
+      }
+
+      .fontAwesome {
+        font-size: 38px;
+        margin: $base-spacing * 2;
       }
     }
 
-    &:hover .portfolioCardText {
-      display: flex;
-      transform: scale(1.2);
-      transition: scale(0.3);
-      z-index: 2;
+    &:hover img {
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
 
       button {
         cursor: pointer;
       }
+    }
+    .fontAwesome:hover path {
+      color: $secondary-color;
     }
   }
 }
@@ -70,3 +82,33 @@
     }
   }
 }
+
+.slideInLeft {
+  -webkit-animation: slideInLeft 0.75s ease-in both;
+  animation: slideInLeft 0.75s ease-in both;
+}
+
+// @-webkit-keyframes slideInLeft {
+//   0% {
+//     -webkit-transform: translateX(-300px);
+//     transform: translateX(-300px);
+//     opacity: 0;
+//   }
+//   100% {
+//     -webkit-transform: translateX(0);
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+// }
+// @keyframes slideInLeft {
+//   0% {
+//     -webkit-transform: translateX(-300px);
+//     transform: translateX(-300px);
+//     opacity: 0;
+//   }
+//   100% {
+//     -webkit-transform: translateX(0);
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+// }

@@ -37,7 +37,7 @@ const NavBar = () => {
             className={styles.page}
             onClick={() => toggleNav(!navShown)}
           >
-            <span>About Me</span>
+            <span>About</span>
           </Link>
         </div>
       ) : null}

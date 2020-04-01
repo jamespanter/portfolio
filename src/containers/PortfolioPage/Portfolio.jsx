@@ -15,58 +15,66 @@ const Portfolio = () => {
           <Card
             title="Vojo"
             description="Group based Client project built in react"
-            url="https://vojo-bbe4f.web.app/"
+            subDomainUrl="https://vojo-bbe4f.web.app/"
+            gitHubUrl="https://github.com/nology-tech/vojo"
             imageURL="../../assets/vojo.PNG"
-            resources="React, Firebase, Authentication"
+            languages="React JS"
           />
           <Card
             title="To-Do List"
             description="Challenge using CRUD integration and authentication with firebase"
-            url="https://to-do-list.jamespanter.co.uk/"
+            subDomainUrl="https://to-do-list.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/to-do-list"
             imageURL="../../assets/to-do-list.PNG"
-            resources="React, Firebase, Authentication"
+            languages="React JS"
           />
           <Card
-            title="Follow The Bird"
-            description="Working with HTML audio and event listeners"
-            url="public\assets\follow-the-sound.PNG"
+            title="Follow The Sound"
+            description="Game working with JS maths and HTML audio playback"
+            subDomainUrl="https://follow-the-sound.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/follow-the-sound"
             imageURL="../../assets/follow-the-sound.PNG"
             languages="HTML, JavaScript"
           />
           <Card
             title="Space Invaders"
             description="Code challenge focused on OOP using JavaScript to dynamically creating content in html"
-            url="https://space-invaders.jamespanter.co.uk/"
+            subDomainUrl="https://space-invaders.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/space-invaders"
             imageURL="../../assets/space-invaders.PNG"
-            resources="HTML, CSS, JavaScript"
+            languages="HTML, CSS, JavaScript"
           />
           <Card
             title="Morse Code Translator"
             description="Working with arrays iterators"
-            url="https://morse-code-translator.jamespanter.co.uk/"
+            subDomainUrl="https://morse-code-translator.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/morse-code-translator"
             imageURL="../../assets/morse-code-translator.PNG"
-            resources="HTML, CSS, JavaScript"
+            languages="HTML, CSS, JavaScript"
           />
           <Card
             title="Snake"
             description="Using html canvas with javascript"
-            url="https://snake.jamespanter.co.uk/"
+            subDomainUrl="https://snake.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/snake"
             imageURL="../../assets/snake.PNG"
-            resources="HTML, CSS, JavaScript"
+            languages="HTML, JavaScript"
           />
           <Card
             title="Hall Of Mirrors"
             description="Using react to pass props into components"
-            url="https://hall-of-mirrors.jamespanter.co.uk/"
+            subDomainUrl="https://hall-of-mirrors.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/hall-of-mirrors"
             imageURL="../../assets/hall-of-mirrors.PNG"
-            resources="HTML, CSS, JavaScript"
+            languages="React JS"
           />
           <Card
             title="Noughts & Crosses"
             description="Using if statements"
-            url="https://noughts-and-crosses.jamespanter.co.uk/"
+            subDomainUrl="https://noughts-and-crosses.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/noughts-and-crosses"
             imageURL="../../assets/noughts-and-crosses.PNG"
-            resources="HTML, CSS, JavaScript"
+            languages="HTML, CSS, JavaScript"
           />
         </div>
       </div>
