@@ -61,6 +61,7 @@ const NavBar = () => {
                 currentPage === "Home" ? { color: "rgb(223, 223, 95)" } : null
               }
               className={styles.fadeInBck}
+              style={{ animationDelay: "0.2s" }}
             >
               Home
             </span>
@@ -78,6 +79,7 @@ const NavBar = () => {
                   : null
               }
               className={styles.fadeInBck}
+              style={{ animationDelay: ".4s" }}
             >
               Portfolio
             </span>
@@ -93,13 +95,14 @@ const NavBar = () => {
                 currentPage === "About" ? { color: "rgb(223, 223, 95)" } : null
               }
               className={styles.fadeInBck}
+              style={{ animationDelay: ".6s" }}
             >
               About
             </span>
           </Link>
         </div>
 
-        <nav className={styles.fadeInBck}>
+        <nav className={styles.fadeInBck} style={{ animationDelay: ".8s" }}>
           <a
             target="_blank"
             rel="noopener noreferrer"
