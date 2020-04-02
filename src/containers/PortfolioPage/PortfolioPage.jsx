@@ -69,8 +69,8 @@ const PortfolioPage = () => {
             languages="HTML, CSS, JavaScript"
           />
           <Card
-            title="Morse Code Translator"
-            description="Working with arrays iterators"
+            title="Google Morse Code Translator"
+            description="Challenge using with arrays iterators, styled in line with Google translate"
             subDomainUrl="https://morse-code-translator.jamespanter.co.uk/"
             gitHubUrl="https://github.com/jamespanter/morse-code-translator"
             imageURL="../../assets/morse-code-translator.PNG"
