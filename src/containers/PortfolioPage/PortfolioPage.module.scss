@@ -23,6 +23,8 @@
 
 @media only screen and (min-width: 764px) {
   .portfolioContainer {
+    min-height: 100vh;
+
     h2 {
       margin: $base-spacing * 5;
     }
