@@ -4,9 +4,9 @@ import DashBoard from "./containers/DashBoard";
 
 const App = () => {
   return (
-    <>
+    <div className={styles.background}>
       <DashBoard />
-    </>
+    </div>
   );
 };
 
