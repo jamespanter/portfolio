@@ -21,6 +21,14 @@ const PortfolioPage = () => {
             languages="React JS"
           />
           <Card
+            title="Covid-19 stats"
+            description="Using an API to get dynamic data and displaying visually"
+            subDomainUrl="https://covid-tracker.jamespanter.co.uk/"
+            gitHubUrl="https://github.com/jamespanter/covid-tracker"
+            imageURL="../../assets/covid-checker.PNG"
+            languages="React JS"
+          />
+          <Card
             title="To-Do List"
             description="Challenge using CRUD integration and authentication with firebase"
             subDomainUrl="https://to-do-list.jamespanter.co.uk/"
@@ -46,7 +54,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Noughts & Crosses"
-            description="Using if statements"
+            description="Using if statements to add and remove classes"
             subDomainUrl="https://noughts-and-crosses.jamespanter.co.uk/"
             gitHubUrl="https://github.com/jamespanter/noughts-and-crosses"
             imageURL="../../assets/noughts-and-crosses.PNG"
