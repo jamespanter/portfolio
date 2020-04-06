@@ -150,7 +150,7 @@ const NavBar = () => {
           >
             <FontAwesomeIcon icon={faGithub} className={styles.fontAwesome} />
           </a>
-          <a href="mailto: james.panter@nology.io">
+          <a href="mailto: james.panter@blueyonder.co.uk">
             <FontAwesomeIcon icon={faEnvelope} className={styles.fontAwesome} />
           </a>
         </nav>
