@@ -38,7 +38,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Follow The Sound"
-            description="Game working with JS maths and HTML audio playback"
+            description="Game working with JS maths, arrays and HTML audio playback"
             subDomainUrl="https://follow-the-sound.jamespanter.co.uk/"
             gitHubUrl="https://github.com/jamespanter/follow-the-sound"
             imageURL="../../assets/follow-the-sound.PNG"
@@ -46,7 +46,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Snake"
-            description="Using html canvas with javascript"
+            description="Experimental snake style game using html canvas with javascript"
             subDomainUrl="https://snake.jamespanter.co.uk/"
             gitHubUrl="https://github.com/jamespanter/snake"
             imageURL="../../assets/snake.PNG"
@@ -62,7 +62,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Space Invaders"
-            description="Code challenge focused on OOP using JavaScript to dynamically creating content in html"
+            description="Mock tech test focused on JavaScript OOP to dynamically create content in html"
             subDomainUrl="https://space-invaders.jamespanter.co.uk/"
             gitHubUrl="https://github.com/jamespanter/space-invaders"
             imageURL="../../assets/space-invaders.PNG"
