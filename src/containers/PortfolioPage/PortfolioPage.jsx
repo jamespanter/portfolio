@@ -61,14 +61,6 @@ const PortfolioPage = () => {
             languages="HTML, CSS, JavaScript"
           />
           <Card
-            title="Hall Of Mirrors"
-            description="Using react to pass props into components"
-            subDomainUrl="https://hall-of-mirrors.jamespanter.co.uk/"
-            gitHubUrl="https://github.com/jamespanter/hall-of-mirrors"
-            imageURL="../../assets/hall-of-mirrors.PNG"
-            languages="React JS"
-          />
-          <Card
             title="Space Invaders"
             description="Code challenge focused on OOP using JavaScript to dynamically creating content in html"
             subDomainUrl="https://space-invaders.jamespanter.co.uk/"
