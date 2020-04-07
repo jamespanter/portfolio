@@ -4,14 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
-const Card = props => {
+const Card = (props) => {
   const {
     title,
     description,
     subDomainUrl,
+    gitHubShow,
     gitHubUrl,
     imageURL,
-    languages
+    languages,
   } = props;
 
   return (
@@ -30,9 +31,14 @@ const Card = props => {
                 className={styles.fontAwesome}
               />
             </a>
-            <a href={gitHubUrl} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} className={styles.fontAwesome} />
-            </a>
+            {gitHubShow === "true" ? (
+              <a href={gitHubUrl} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className={styles.fontAwesome}
+                />
+              </a>
+            ) : null}
           </div>
         </div>
       </div>
