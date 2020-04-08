@@ -45,7 +45,10 @@ const AboutMePage = () => {
             <FontAwesomeIcon icon={faHtml5} className={styles.fontAwesome} />
             <FontAwesomeIcon icon={faCss3Alt} className={styles.fontAwesome} />
             <FontAwesomeIcon icon={faJsSquare} className={styles.fontAwesome} />
-            <FontAwesomeIcon icon={faGithub} className={styles.fontAwesome} />
+            <FontAwesomeIcon
+              icon={faGitSquare}
+              className={styles.fontAwesome}
+            />
             <FontAwesomeIcon icon={faSass} className={styles.fontAwesome} />
             <FontAwesomeIcon icon={faReact} className={styles.fontAwesome} />
             <FontAwesomeIcon
