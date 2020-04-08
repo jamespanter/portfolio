@@ -32,7 +32,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Movie Database"
-            description="Example tech test fetching from authenticated API"
+            description="Example tech test fetching from API with lazy loading implemented"
             subDomainUrl="https://movie-database.jamespanter.co.uk/"
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/movie-database"
