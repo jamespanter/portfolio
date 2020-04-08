@@ -31,6 +31,15 @@ const PortfolioPage = () => {
             languages="React JS"
           />
           <Card
+            title="Movie Database"
+            description="Example tech test fetching from authenticated API"
+            subDomainUrl="https://movie-database.jamespanter.co.uk/"
+            gitHubShow="true"
+            gitHubUrl="https://github.com/jamespanter/movie-database"
+            imageURL="../../assets/movie-database.PNG"
+            languages="React JS"
+          />
+          <Card
             title="To-Do List"
             description="Challenge using CRUD integration and authentication with firebase"
             subDomainUrl="https://to-do-list.jamespanter.co.uk/"
