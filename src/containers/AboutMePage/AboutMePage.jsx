@@ -2,14 +2,14 @@ import React, { useEffect } from "react";
 import styles from "./AboutMePage.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faGitSquare,
   faHtml5,
   faCss3Alt,
   faJsSquare,
-  faGithub,
   faSass,
   faReact,
   faBootstrap,
-  faYarn
+  faYarn,
 } from "@fortawesome/free-brands-svg-icons";
 
 const AboutMePage = () => {
