@@ -40,6 +40,11 @@ const Card = (props) => {
               </a>
             ) : null}
           </div>
+          <div className={styles.languages}>
+            {languages.map((language) => (
+              <p key={language}>{language}</p>
+            ))}
+          </div>
         </div>
       </div>
     </div>

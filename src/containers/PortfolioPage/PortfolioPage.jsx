@@ -19,7 +19,7 @@ const PortfolioPage = () => {
             gitHubShow="false"
             gitHubUrl="https://github.com/nology-tech/vojo"
             imageURL="../../assets/vojo.PNG"
-            languages="React JS"
+            languages={["ReactJS"]}
           />
           <Card
             title="Covid-19 stats"
@@ -28,7 +28,7 @@ const PortfolioPage = () => {
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/covid-tracker"
             imageURL="../../assets/covid-checker.PNG"
-            languages="React JS"
+            languages={["ReactJS"]}
           />
           <Card
             title="Movie Database"
@@ -37,7 +37,7 @@ const PortfolioPage = () => {
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/movie-database"
             imageURL="../../assets/movie-database.PNG"
-            languages="React JS"
+            languages={["ReactJS"]}
           />
           <Card
             title="To-Do List"
@@ -46,7 +46,7 @@ const PortfolioPage = () => {
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/to-do-list"
             imageURL="../../assets/to-do-list.PNG"
-            languages="React JS"
+            languages={["ReactJS"]}
           />
           <Card
             title="Follow The Sound"
@@ -55,7 +55,7 @@ const PortfolioPage = () => {
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/follow-the-sound"
             imageURL="../../assets/follow-the-sound.PNG"
-            languages="HTML, JavaScript"
+            languages={["JS", "CSS"]}
           />
           <Card
             title="Snake"
@@ -64,7 +64,7 @@ const PortfolioPage = () => {
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/snake"
             imageURL="../../assets/snake.PNG"
-            languages="HTML, JavaScript"
+            languages={["JS"]}
           />
           <Card
             title="Noughts & Crosses"
@@ -73,16 +73,16 @@ const PortfolioPage = () => {
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/noughts-and-crosses"
             imageURL="../../assets/noughts-and-crosses.PNG"
-            languages="HTML, CSS, JavaScript"
+            languages={["JS", "HTML", "CSS"]}
           />
           <Card
             title="Space Invaders"
-            description="Mock tech test focused on JavaScript OOP to dynamically create content in html"
+            description="Tech test focused on JS OOP to dynamically create content in html"
             subDomainUrl="https://space-invaders.jamespanter.co.uk/"
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/space-invaders"
             imageURL="../../assets/space-invaders.PNG"
-            languages="HTML, CSS, JavaScript"
+            languages={["JS", "CSS"]}
           />
           <Card
             title="Morse Code Translator"
@@ -91,7 +91,7 @@ const PortfolioPage = () => {
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/morse-code-translator"
             imageURL="../../assets/morse-code-translator.PNG"
-            languages="HTML, CSS, JavaScript"
+            languages={["JS", "HTML", "CSS"]}
           />
         </div>
       </div>
