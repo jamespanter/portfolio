@@ -76,15 +76,6 @@ const PortfolioPage = () => {
             languages={["JS", "HTML", "CSS"]}
           />
           <Card
-            title="Space Invaders"
-            description="Tech test focused on JS OOP to dynamically create content in html"
-            subDomainUrl="https://space-invaders.jamespanter.co.uk/"
-            gitHubShow="true"
-            gitHubUrl="https://github.com/jamespanter/space-invaders"
-            imageURL="../../assets/space-invaders.PNG"
-            languages={["JS", "CSS"]}
-          />
-          <Card
             title="Morse Code Translator"
             description="Challenge using arrays iterators, styled similarly to Google translate"
             subDomainUrl="https://morse-code-translator.jamespanter.co.uk/"
