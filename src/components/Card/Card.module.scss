@@ -2,6 +2,7 @@
 
 .cardContainer {
   margin: $base-spacing;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
 
   .portfolioCard {
     position: relative;
@@ -62,7 +63,6 @@
       }
 
       .languages {
-        transition: opacity 0.3 ease-in-out;
         position: absolute;
         bottom: 10%;
         right: -15%;
