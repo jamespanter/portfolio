@@ -11,10 +11,6 @@
 .routerContainer {
   width: 100%;
   min-height: calc(100vh - 60px);
-  background: url(../../assets/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 @media only screen and (min-width: 768px) {
