@@ -16,7 +16,6 @@ const NavBar = () => {
         className={styles.burgerMenuIcon}
         onClick={() => toggleNav(!navShown)}
       />
-
       {navShown ? (
         <div className={`${styles.burgerMenuDropDown} ${styles.slideInTopNav}`}>
           <Link
