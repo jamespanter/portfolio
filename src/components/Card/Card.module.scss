@@ -64,8 +64,8 @@
 
       .languages {
         position: absolute;
-        bottom: 10%;
-        right: -15%;
+        bottom: 0%;
+        right: 5%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -99,7 +99,7 @@
     }
 
     &:hover .languages {
-      right: 5%;
+      bottom: 10%;
       visibility: visible;
       transition: all 0.3s ease-in-out;
       transition-delay: 0.5s;
