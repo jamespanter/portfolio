@@ -80,6 +80,10 @@
           font-weight: 900;
           color: $primary-color;
           margin: 1px;
+
+          &::selection {
+            color: $primary-color;
+          }
         }
       }
     }
