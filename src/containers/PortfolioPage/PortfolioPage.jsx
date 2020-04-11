@@ -14,7 +14,7 @@ const PortfolioPage = () => {
         <div className={styles.portfolio}>
           <Card
             title="Vojo"
-            description="Group based client project built in react"
+            description="Website for a group based client project providing the user a personalized diet plan"
             subDomainUrl="https://vojo-bbe4f.web.app/"
             gitHubShow="false"
             gitHubUrl="https://github.com/nology-tech/vojo"
@@ -22,8 +22,8 @@ const PortfolioPage = () => {
             languages={["ReactJS"]}
           />
           <Card
-            title="Covid-19 stats"
-            description="Using an API to get dynamic data and displaying visually"
+            title="Covid-19 Statistics"
+            description="Website providing COVID statistics from an API and displaying in charts"
             subDomainUrl="https://covid-tracker.jamespanter.co.uk/"
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/covid-tracker"
@@ -32,7 +32,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Movie Database"
-            description="Example tech test fetching from API with lazy loading implemented"
+            description="Movie database fetching from an API with lazy loading implemented"
             subDomainUrl="https://movie-database.jamespanter.co.uk/"
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/movie-database"
@@ -41,7 +41,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="To-Do List"
-            description="Challenge using CRUD integration and authentication with firebase"
+            description="To-do list utilizing CRUD and authentication in firebase"
             subDomainUrl="https://to-do-list.jamespanter.co.uk/"
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/to-do-list"
@@ -50,7 +50,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Follow The Sound"
-            description="Game working with JS maths, arrays and HTML audio playback"
+            description="Game using JS maths to calculate HTML audio playback rate"
             subDomainUrl="https://follow-the-sound.jamespanter.co.uk/"
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/follow-the-sound"
@@ -59,7 +59,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Snake"
-            description="Experimental snake style game using html canvas with javascript"
+            description="Experimental snake style game exploring html animation with javascript"
             subDomainUrl="https://snake.jamespanter.co.uk/"
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/snake"
@@ -68,7 +68,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Noughts & Crosses"
-            description="Using if statements to add and remove classes"
+            description="Game using if statements to add and remove styles to HTML elements"
             subDomainUrl="https://noughts-and-crosses.jamespanter.co.uk/"
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/noughts-and-crosses"
@@ -77,7 +77,7 @@ const PortfolioPage = () => {
           />
           <Card
             title="Morse Code Translator"
-            description="Challenge using arrays iterators, styled similarly to Google translate"
+            description="Translator using arrays iterators, styled similarly to Google translate"
             subDomainUrl="https://morse-code-translator.jamespanter.co.uk/"
             gitHubShow="true"
             gitHubUrl="https://github.com/jamespanter/morse-code-translator"
