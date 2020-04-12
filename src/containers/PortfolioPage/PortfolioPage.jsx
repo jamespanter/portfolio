@@ -40,6 +40,15 @@ const PortfolioPage = () => {
             languages={["ReactJS"]}
           />
           <Card
+            title="Whats the time?"
+            description="World clock application fetching from an API"
+            subDomainUrl="https://whats-the-time.jamespanter.co.uk/"
+            gitHubShow="true"
+            gitHubUrl="https://github.com/jamespanter/whats-the-time"
+            imageURL="../../assets/whats-the-time.PNG"
+            languages={["ReactJS"]}
+          />
+          <Card
             title="To-Do List"
             description="To-do list utilizing CRUD and authentication in firebase"
             subDomainUrl="https://to-do-list.jamespanter.co.uk/"
