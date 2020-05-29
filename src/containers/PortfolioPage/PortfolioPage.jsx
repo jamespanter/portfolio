@@ -67,6 +67,15 @@ const PortfolioPage = () => {
             languages={["JS", "CSS"]}
           />
           <Card
+            title="Bingo Roller"
+            description="90 Ball Bingo Roller"
+            subDomainUrl="https://bingo.jamespanter.co.uk/"
+            gitHubShow="true"
+            gitHubUrl="https://github.com/jamespanter/bingo"
+            imageURL="../../assets/bingo.PNG"
+            languages={["JS", "HTML", "CSS"]}
+          />
+          <Card
             title="Snake"
             description="Experimental snake style game exploring html animation with javascript"
             subDomainUrl="https://snake.jamespanter.co.uk/"
