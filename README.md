@@ -1,4 +1,4 @@
-# Morse Translator
+# Portfolio
 https://jamespanter.co.uk/
 
 ## About
